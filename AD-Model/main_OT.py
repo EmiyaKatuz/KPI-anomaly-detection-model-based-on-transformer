@@ -19,12 +19,12 @@ def objective(trial):
     config = argparse.Namespace(
         seed=1,
         mode='train',
-        data_path='C:/Users/Stardust/Desktop/UoA/2025.02/STATS792B/AD-Model/data/PSM',
+        data_path='dataset/PSM',
         dataset='PSM',
         input_c=25,
         output_c=25,
         model_save_path='model_params',
-        results='C:/Users/Stardust/Desktop/UoA/2025.02/STATS792B/AD-Model/results',
+        results='results',
         mask_ratio=trial.suggest_float('mask_ratio', 0.01, 0.1),
         k=trial.suggest_float('k', 1.0, 5.0),
         num_proto=trial.suggest_categorical('num_proto', [4, 8, 16]),
@@ -42,9 +42,9 @@ def objective(trial):
     solver = Solver(vars(config))
     solver.train()
 
-    # 加载验证分数，例如最后一个 epoch 的验证损失（越小越好）
+    # Load validation score, e.g. validation loss for last epoch (smaller is better)
     vali_loss = solver.vali(solver.vali_loader)
-    return -vali_loss  # Optuna 默认最大化，因此取负值
+    return -vali_loss  # Optuna is maximized by default, so it takes a negative value.
 
 def main(config):
     random.seed(config.seed)
@@ -77,12 +77,12 @@ if __name__ == '__main__':
 
     parser.add_argument('--seed', type=int, default=1)
     parser.add_argument('--mode', type=str, default='train', choices=['train', 'test'])
-    parser.add_argument('--data_path', type=str, default='C:/Users/Stardust/Desktop/UoA/2025.02/STATS792B/AD-Model/data/PSM')
+    parser.add_argument('--data_path', type=str, default='dataset/PSM')
     parser.add_argument('--dataset', type=str, default='PSM')
     parser.add_argument('--input_c', type=int, default=25)
     parser.add_argument('--output_c', type=int, default=25)
     parser.add_argument('--model_save_path', type=str, default='model_params')
-    parser.add_argument('--results', type=str, default='C:/Users/Stardust/Desktop/UoA/2025.02/STATS792B/AD-Model/results')
+    parser.add_argument('--results', type=str, default='results')
     parser.add_argument('--mask_ratio', type=float, default=0.05)
     parser.add_argument('--k', type=float, default=2)
     parser.add_argument('--num_proto', type=int, default=8)
