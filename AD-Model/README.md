@@ -16,6 +16,13 @@ bash ./scripts/SWaT.sh
 bash ./scripts/PSM.sh
 ```
 
+## Ablation Experiments
+
+```bash
+./extra_test.sh
+./len_map.sh
+./num_proto.sh
+```
 
 ## Experiment results
 
