@@ -19,9 +19,9 @@ bash ./scripts/PSM.sh
 ## Ablation Experiments
 
 ```bash
-./extra_test.sh
-./len_map.sh
-./num_proto.sh
+bash ./extra_test.sh
+bash ./len_map.sh
+bash ./num_proto.sh
 ```
 
 ## Experiment results
