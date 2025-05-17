@@ -1,6 +1,6 @@
 # KPI-anomaly-detection-model-based-on-transformer
  
-## 1. Baseline Model Performance (DCdetector)
+## 1. Baseline Model Performance
 
 The results regarding the local reproduction of the thesis results are shown in the following table.
 
