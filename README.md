@@ -9,7 +9,8 @@
 
 ## 2. Datasets used
   Download data. You can obtain the benchmark datasets from the Github Repository of DCdetector ( [here](https://drive.google.com/drive/folders/1RaIJQ8esoWuhyphhmMaH-VCDh-WIluRR) ).
-
+# Data information:
+![Baseline result](AD-Model/img/difference.png)
 
 ## 3. Experiment results reproduce
 
