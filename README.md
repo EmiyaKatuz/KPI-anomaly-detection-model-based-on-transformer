@@ -60,14 +60,6 @@ It can be seen that the baseline model results are almost identical to those in 
 ### 4.5.3 Model efficiency
 
 
-
-
-```bash
-bash ./extra_test.sh
-bash ./len_map.sh
-bash ./num_proto.sh
-```
-
 ## 5. Reference
 
 > DCdetector: https://github.com/DAMO-DI-ML/KDD2023-DCdetector
