@@ -10,7 +10,8 @@
 ## 2. Datasets used
   Download data. You can obtain the benchmark datasets from the Github Repository of DCdetector ( [here](https://drive.google.com/drive/folders/1RaIJQ8esoWuhyphhmMaH-VCDh-WIluRR) ).
 # Data information:
-![Baseline result](AD-Model/img/difference.png)
+
+![Data Information](AD-Model/img/data-information.png)
 
 ## 3. Experiment results reproduce
 
@@ -54,12 +55,20 @@ It can be seen that the baseline model results are almost identical to those in 
 
 ### 4.5.1 Parameter Sensitivity
 
+Parameter Sensitivity 1-4:
+
+![Parameter Sensitivity14](AD-Model/img/param_sensitivity_for1-4.png)
+
+Parameter Sensitivity 5-9:
+
+![Parameter Sensitivity59](AD-Model/img/param_sensitivity_for5-9.png)
 
 ### 4.5.2 Ablation Experiments
 
 
 ### 4.5.3 Model efficiency
 
+![Model efficiency](AD-Model/img/model_efficiency_plot.png)
 
 ## 5. Reference
 
