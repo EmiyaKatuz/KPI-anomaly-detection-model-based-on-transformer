@@ -34,7 +34,7 @@ bash ./scripts/PSM.sh
 
 
 ###4.3 Baseline model
-
+![Dcdetector result](Baseline_models/KDD2023-DCdetector/img/difference.png)
 
 ###4.4 Mian result
 
