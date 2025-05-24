@@ -9,13 +9,14 @@
 
 ## 2. Datasets used
   Download data. You can obtain the benchmark datasets from the Github Repository of DCdetector ( [here](https://drive.google.com/drive/folders/1RaIJQ8esoWuhyphhmMaH-VCDh-WIluRR) ).
-# Data information:
+
+### 2.1 Datasets information:
 
 ![Data Information](AD-Model/img/data-information.png)
 
 ## 3. Experiment results reproduce
 
-4. Train and Test. We provide the experiment scripts of all benchmarks under the folder `./scripts`. You can reproduce the experiment results as follows:
+**1.** Train and Test. We provide the experiment scripts of all benchmarks under the folder `./scripts`. You can reproduce the experiment results as follows:
 
 ```bash
 bash ./scripts/SMD.sh
@@ -24,7 +25,7 @@ bash ./scripts/SMAP.sh
 bash ./scripts/SWaT.sh
 bash ./scripts/PSM.sh
 ```
-5. The following files record scripts used for hyperparameter fine-tuning
+**2.** The following files record scripts used for hyperparameter fine-tuning
 
 ```bash
 bash ./scripts/extra_test.sh
