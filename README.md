@@ -1,6 +1,4 @@
-# AD-model(Anomaly-detection model) Developed and improved based on the GDformer
-
-(GDformer: Going Beyond Subsequence Isolation for Multivariate Time Series Anomaly Detection)
+# ADformer: Adaptive theory combined with Dictionary-guided Transformer model for multivariate time Series Anomaly Detection
 
 
 ## 1. Get Started--Environment configuration
@@ -75,8 +73,12 @@ Parameter Sensitivity 5-9:
 ## 5. Reference
 
 > DCdetector: https://github.com/DAMO-DI-ML/KDD2023-DCdetector
+> GDformer: https://github.com/yuppielqx/GDformer
+> 
 
-
-[^1]: GDformer: https://github.com/yuppielqx/GDformer
-
-........
+## 6.member contribution:
+Yansong Shi: Data acquisition, data preprocessing, building experimental charts.
+Heqing Shi: Project Management, Method Improvement and Theory Verification, Code Implementation and Debugging, Collection of Experimental Results.
+Xiaolong Ge: project environment construction, code implementation and debugging, experimental results collection, experimental results visualization.
+Geyang Zhang: project environment construction, code implementation and debugging, experimental results collection, experimental results visualization.
+Guanjin Wang: Method improvement and theory verification, slide production.
