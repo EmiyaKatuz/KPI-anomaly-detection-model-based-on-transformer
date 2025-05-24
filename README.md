@@ -108,7 +108,9 @@ Parameter Sensitivity 5-9:
 
 > DCdetector: https://github.com/DAMO-DI-ML/KDD2023-DCdetector
 > GDformer: https://github.com/yuppielqx/GDformer
-> 
+> OmniAnomaly： https://github.com/NetManAIOps/OmniAnomaly
+> TranAD: https://github.com/imperial-qore/TranAD
+> DDMT: https://github.com/Lelantos42/DDMT
 
 ## 6.member contribution:
 Yansong Shi: Data acquisition, data preprocessing, building experimental charts.
