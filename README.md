@@ -52,6 +52,7 @@ It can be seen that the baseline model results are almost identical to those in 
 
 ### 4.4 Main result
 
+![compare_with_16_methods-table](AD-Model/img/compare_with_16_methods-table.png)
 
 ### 4.5.1 Parameter Sensitivity
 
