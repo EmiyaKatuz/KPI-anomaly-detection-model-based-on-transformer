@@ -39,30 +39,40 @@ bash ./scripts/num_proto.sh
 
 ### 4.2 Evaluation Metrics
 
-\paragraph{1) Precision.}
-Precision measures the proportion of correctly predicted anomalies among all predicted anomalies, and is defined as:
+### 1) Precision
 
-\begin{equation}
-\text{Precision} = \frac{TP}{TP + FP},
-\end{equation}
+**Precision** measures the proportion of correctly predicted anomalies among all predicted anomalies:
 
-\noindent where $TP$ denotes the number of true positives (correctly detected anomalies), and $FP$ denotes the number of false positives (normal points mistakenly classified as anomalies).
+$$
+\text{Precision} = \frac{TP}{TP + FP}
+$$
 
-\paragraph{2) Recall.}
-Recall measures the proportion of correctly identified anomalies among all actual anomalies, and is calculated as:
+Where:
+- **TP** = True Positives (correctly detected anomalies)
+- **FP** = False Positives (normal points mistakenly classified as anomalies)
 
-\begin{equation}
-\text{Recall} = \frac{TP}{TP + FN},
-\end{equation}
+---
 
-\noindent where $FN$  represents the false negative (the number of abnormal samples that the model failed to identify).
+### 2) Recall
 
-\paragraph{3) F1-score.}
-To provide a balanced evaluation of both precision and recall, we compute the F1-score, which is the harmonic mean of the two:
+**Recall** measures the proportion of actual anomalies that are correctly identified:
 
-\begin{equation}
-\text{F1} = \frac{2 \cdot \text{Precision} \cdot \text{Recall}}{\text{Precision} + \text{Recall}}.
-\end{equation}
+$$
+\text{Recall} = \frac{TP}{TP + FN}
+$$
+
+Where:
+- **FN** = False Negatives (anomalies the model failed to detect)
+
+---
+
+### 3) F1-score
+
+**F1-score** is the harmonic mean of Precision and Recall:
+
+$$
+\text{F1} = \frac{2 \cdot \text{Precision} \cdot \text{Recall}}{\text{Precision} + \text{Recall}}
+$$
 
 
 ### 4.3 Baseline model
