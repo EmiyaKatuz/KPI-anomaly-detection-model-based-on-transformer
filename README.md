@@ -39,6 +39,30 @@ bash ./scripts/num_proto.sh
 
 ### 4.2 Evaluation Metrics
 
+\paragraph{1) Precision.}
+Precision measures the proportion of correctly predicted anomalies among all predicted anomalies, and is defined as:
+
+\begin{equation}
+\text{Precision} = \frac{TP}{TP + FP},
+\end{equation}
+
+\noindent where $TP$ denotes the number of true positives (correctly detected anomalies), and $FP$ denotes the number of false positives (normal points mistakenly classified as anomalies).
+
+\paragraph{2) Recall.}
+Recall measures the proportion of correctly identified anomalies among all actual anomalies, and is calculated as:
+
+\begin{equation}
+\text{Recall} = \frac{TP}{TP + FN},
+\end{equation}
+
+\noindent where $FN$  represents the false negative (the number of abnormal samples that the model failed to identify).
+
+\paragraph{3) F1-score.}
+To provide a balanced evaluation of both precision and recall, we compute the F1-score, which is the harmonic mean of the two:
+
+\begin{equation}
+\text{F1} = \frac{2 \cdot \text{Precision} \cdot \text{Recall}}{\text{Precision} + \text{Recall}}.
+\end{equation}
 
 
 ### 4.3 Baseline model
