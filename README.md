@@ -107,14 +107,23 @@ Parameter Sensitivity 5-9:
 ## 5. Reference
 
 > DCdetector: https://github.com/DAMO-DI-ML/KDD2023-DCdetector
+> 
 > GDformer: https://github.com/yuppielqx/GDformer
+> 
 > OmniAnomaly： https://github.com/NetManAIOps/OmniAnomaly
+> 
 > TranAD: https://github.com/imperial-qore/TranAD
+> 
 > DDMT: https://github.com/Lelantos42/DDMT
 
-## 6.member contribution:
-Yansong Shi: Data acquisition, data preprocessing, building experimental charts.
+## 6. Member Contribution:
+
+Yansong Shi: Data acquisition, data preprocessing, and  building experimental charts.
+
 Heqing Shi: Project Management, Method Improvement and Theory Verification, Code Implementation and Debugging, Collection of Experimental Results.
-Xiaolong Ge: project environment construction, code implementation and debugging, experimental results collection, experimental results visualization.
-Geyang Zhang: project environment construction, code implementation and debugging, experimental results collection, experimental results visualization.
+
+Xiaolong Ge: project environment construction, code implementation and debugging, experimental results collection, and experimental results visualisation.
+
+Geyang Zhang: project environment construction, code implementation and debugging, experimental results collection, and experimental results visualisation.
+
 Guanjin Wang: Method improvement and theory verification, slide production.
