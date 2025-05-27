@@ -23,7 +23,7 @@ bash ./scripts/SMAP.sh
 bash ./scripts/SWaT.sh
 bash ./scripts/PSM.sh
 ```
-**2.** The following files record scripts used for hyperparameter fine-tuning
+**2.** The following files record sample scripts used for hyperparameter fine-tuning
 
 ```bash
 bash ./scripts/extra_test.sh
