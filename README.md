@@ -77,7 +77,7 @@ $$
 
 ### 4.3 Baseline model
 
-Based on the code provided in the paper [GD Former](https://arxiv.org/abs/2501.18196)[^1], we replicated the model on our own local device as our baseline model, with the results shown in the following table.
+Based on the code provided in the paper [GD Former](https://arxiv.org/abs/2501.18196), we replicated the model on our own local device as our baseline model, with the results shown in the following table.
 
 ![Baseline result](AD-Model/img/difference.png)
 
