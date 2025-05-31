@@ -119,7 +119,7 @@ Parameter Sensitivity 5-9:
 
 ### 4.5.3 Model efficiency
 
-![Model efficiency](AD-Model/img/model_efficiency_plot.png)
+![Model Efficiency](AD-Model/img/Model%20Efficiency%20Comparison.png)
 
 ## 5. Reference
 
