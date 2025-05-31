@@ -108,8 +108,11 @@ Parameter Sensitivity 5-9:
 ---
 
 ### b. Dictionary-based Cross Attention
-**Replacement:** Replaced the dictionary-based cross-attention with conventional self-attention, where queries, keys, and values are derived from the same input sequence. This eliminates the use of global shared prototypes.
+**Replacement:** 
+Replaced the dictionary-based cross-attention with conventional self-attention, where queries, keys, and values are derived from the same input sequence. This eliminates the use of global shared prototypes.
 ![Cross Attention](AD-Model/img/Traditional-Trasformer%20Self-Attention%20vs.%20Dictionary-based%20cross-attention.png)
+
+
 ---
 
 ### c. Dynamic Thresholding via SPOT
