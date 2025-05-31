@@ -103,17 +103,19 @@ Parameter Sensitivity 5-9:
 
 ### a. Adaptive Dynamic Neighbor Masking (ADNM)
 **Replacement:** Replaced ADNM with the traditional causal mask (upper-triangular), as used in standard Transformers. This restricts attention to only past timesteps and lacks adaptive masking based on input content.
+![ADNM Mask](AD-Model/img/Trangle%20Mask%20vs.%20ADNM%20Mask.png)
 
 ---
 
 ### b. Dictionary-based Cross Attention
 **Replacement:** Replaced the dictionary-based cross-attention with conventional self-attention, where queries, keys, and values are derived from the same input sequence. This eliminates the use of global shared prototypes.
-
+![Cross Attention](AD-Model/img/Traditional-Trasformer%20Self-Attention%20vs.%20Dictionary-based%20cross-attention.png)
 ---
 
 ### c. Dynamic Thresholding via SPOT
 **Replacement:** Replaced SPOT (based on Extreme Value Theory) with a static percentile thresholding strategy (e.g., Top-5%), where anomaly scores are truncated at a fixed quantile level.
 
+![SPOT Thresholding](AD-Model/img/SPOT.png)
 
 ### 4.5.3 Model efficiency
 
