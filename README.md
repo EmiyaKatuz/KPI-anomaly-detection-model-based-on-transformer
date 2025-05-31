@@ -122,7 +122,7 @@ Yansong Shi: Data acquisition, data preprocessing, and  building experimental ch
 
 Heqing Shi: Project Management, Method Improvement and Theory Verification, Code Implementation and Debugging, Collection of Experimental Results.
 
-Xiaolong Ge: project environment construction, code implementation and debugging, experimental results collection, and experimental results visualisation.
+Xiaolong Ge (ID: EmiyaKatuz): project environment construction, code implementation and debugging, experimental results collection, and experimental results visualisation.
 
 Geyang Zhang: project environment construction, code implementation and debugging, experimental results collection, and experimental results visualisation.
 
