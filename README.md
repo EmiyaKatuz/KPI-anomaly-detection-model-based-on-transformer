@@ -99,6 +99,21 @@ Parameter Sensitivity 5-9:
 
 ### 4.5.2 Ablation Experiments
 
+## Ablation Study: Module Replacements
+
+### a. Adaptive Dynamic Neighbor Masking (ADNM)
+**Replacement:** Replaced ADNM with the traditional causal mask (upper-triangular), as used in standard Transformers. This restricts attention to only past timesteps and lacks adaptive masking based on input content.
+
+---
+
+### b. Dictionary-based Cross Attention
+**Replacement:** Replaced the dictionary-based cross-attention with conventional self-attention, where queries, keys, and values are derived from the same input sequence. This eliminates the use of global shared prototypes.
+
+---
+
+### c. Dynamic Thresholding via SPOT
+**Replacement:** Replaced SPOT (based on Extreme Value Theory) with a static percentile thresholding strategy (e.g., Top-5%), where anomaly scores are truncated at a fixed quantile level.
+
 
 ### 4.5.3 Model efficiency
 
