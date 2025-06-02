@@ -12,7 +12,19 @@
 
 ![Data Information](AD-Model/img/data-information.png)
 
-## 3. Experiment results reproduce
+
+## 3. Model structure
+
+### 3.1 Overview Architecture
+![Model structure](AD-Model/img/Model_Architecture.png)
+
+### 3.2 Adaptive Dynamic Neighbor Mask (ADMN)
+![Model structure](AD-Model/img/ADNM_Masking_handmake.png  )
+
+### 3.3 Dictionaries-based Cross-attention
+![Model structure](AD-Model/img/Dictionary-based-right.png)
+
+## 4. Experiment results reproduce
 
 **1.** Train and Test. We provide the experiment scripts of all benchmarks under the folder `./scripts`. You can reproduce the experiment results as follows:
 
@@ -23,21 +35,15 @@ bash ./scripts/SMAP.sh
 bash ./scripts/SWaT.sh
 bash ./scripts/PSM.sh
 ```
-**2.** The following files record sample scripts used for hyperparameter fine-tuning
 
-```bash
-bash ./scripts/extra_test.sh
-bash ./scripts/len_map.sh
-bash ./scripts/num_proto.sh
-```
 
-## 4. Experiment results
+## 5. Experiment results
 
-### 4.1 Implementation Details
+### 5.1 Implementation Details
 
 
 
-### 4.2 Evaluation Metrics
+### 5.2 Evaluation Metrics
 
 ### 1) Precision
 
@@ -75,7 +81,7 @@ $$
 $$
 
 
-### 4.3 Baseline model
+### 5.3 Baseline model
 
 Based on the code provided in the paper [GD Former](https://arxiv.org/abs/2501.18196), we replicated the model on our own local device as our baseline model, with the results shown in the following table.
 
@@ -83,11 +89,11 @@ Based on the code provided in the paper [GD Former](https://arxiv.org/abs/2501.1
 
 It can be seen that the baseline model results are almost identical to those in the paper and that the algorithm performs best on the PSM dataset in aggregate.
 
-### 4.4 Main result
+### 5.4 Main result
 
 ![compare_with_16_methods-table](AD-Model/img/compare_with_16_methods-table.png)
 
-### 4.5.1 Parameter Sensitivity
+### 5.5.1 Parameter Sensitivity
 
 ### 1) ADMN-hyperparameter-pearson_coefficient:
 ![Parameter Sensitivity_pearson](AD-Model/img/pearson_coefficient_f1.png)
@@ -101,7 +107,7 @@ It can be seen that the baseline model results are almost identical to those in 
 
 ![Parameter Sensitivity59](AD-Model/img/param_sensitivity_for5-9.png)
 
-### 4.5.2 Ablation Experiments
+### 5.5.2 Ablation Experiments
 
 ## Ablation Study: Module Replacements
 
@@ -124,11 +130,12 @@ Replaced the dictionary-based cross-attention with conventional self-attention, 
 
 ![SPOT Thresholding](AD-Model/img/SPOT.png)
 
-### 4.5.3 Model efficiency
+### 5.5.3 Model efficiency
 
 ![Model Efficiency](AD-Model/img/Model%20Efficiency%20Comparison.png)
 
-## 5. Reference
+
+## 6. Reference
 
 > DCdetector: https://github.com/DAMO-DI-ML/KDD2023-DCdetector
 > 
@@ -140,9 +147,9 @@ Replaced the dictionary-based cross-attention with conventional self-attention, 
 > 
 > DDMT: https://github.com/Lelantos42/DDMT
 
-## 6. Member Contribution:
+## 7. Member Contribution:
 
-Heqing Shi: Project Management, Method Improvement and Theory Verification, Code Implementation and Debugging, Collection of Experimental Results.
+Heqing Shi(ID: Stardust752121): Project Management, Method Improvement and Theory Verification, Code Implementation and Debugging, Collection of Experimental Results.
 
 Yansong Shi (ID: Patrick-Shi): Data acquisition, data preprocessing, baseline model evaluation ( Merge Commit ID 0335bad) and building experimental charts/tables .
 
