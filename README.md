@@ -89,7 +89,7 @@ It can be seen that the baseline model results are almost identical to those in 
 
 ### 4.5.1 Parameter Sensitivity
 ADMN-hyperparameter:
-![Parameter Sensitivity14](AD-Model/img/param_sensitivity_for1-4.png)
+![Parameter Sensitivity_pearson](AD-Model/img/pearson_coefficient_f1.png)
 
 
 Parameter Sensitivity 1-4:
