@@ -88,15 +88,16 @@ It can be seen that the baseline model results are almost identical to those in 
 ![compare_with_16_methods-table](AD-Model/img/compare_with_16_methods-table.png)
 
 ### 4.5.1 Parameter Sensitivity
-ADMN-hyperparameter:
+
+### 1) ADMN-hyperparameter-pearson_coefficient:
 ![Parameter Sensitivity_pearson](AD-Model/img/pearson_coefficient_f1.png)
 
 
-Parameter Sensitivity 1-4:
+### 2) Parameter Sensitivity 1-4:
 
 ![Parameter Sensitivity14](AD-Model/img/param_sensitivity_for1-4.png)
 
-Parameter Sensitivity 5-9:
+### 3) Parameter Sensitivity 5-9:
 
 ![Parameter Sensitivity59](AD-Model/img/param_sensitivity_for5-9.png)
 
