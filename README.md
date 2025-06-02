@@ -138,7 +138,7 @@ Replaced the dictionary-based cross-attention with conventional self-attention, 
 
 ## 6. Member Contribution:
 
-Yansong Shi: Data acquisition, data preprocessing, and  building experimental charts.
+Yansong Shi: Data acquisition, data preprocessing, baseline model evaluation ( Merge Commit ID 0335bad) and building experimental charts/tables .
 
 Heqing Shi: Project Management, Method Improvement and Theory Verification, Code Implementation and Debugging, Collection of Experimental Results.
 
