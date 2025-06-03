@@ -155,6 +155,6 @@ Yansong Shi (ID: Patrick-Shi): Data acquisition, data preprocessing, baseline mo
 
 Xiaolong Ge (ID: EmiyaKatuz): project environment construction, code implementation and debugging, experimental results collection, and experimental results visualisation.
 
-Geyang Zhang: project environment construction, code implementation and debugging, experimental results collection, and experimental results visualisation.
+Geyang Zhang (ID: Gayatinydog): project environment construction, code implementation and debugging, experimental results collection, and experimental results visualisation.
 
-Guanjin Wang: Method improvement and theory verification, slide production.
+Guanjin Wang (ID: fengwanhua): Method improvement and theory verification, slide production.
