@@ -149,7 +149,7 @@ Replaced the dictionary-based cross-attention with conventional self-attention, 
 
 ## 7. Member Contribution:
 
-Heqing Shi(ID: Stardust752121): Project Management, Method Improvement and Theory Verification, Code Implementation and Debugging, Collection of Experimental Results.
+Heqing Shi (ID: Stardust752121): Project Management, Method Improvement and Theory Verification, Code Implementation and Debugging, Collection of Experimental Results.
 
 Yansong Shi (ID: Patrick-Shi): Data acquisition, data preprocessing, baseline model evaluation ( Merge Commit ID 0335bad) and building experimental charts/tables .
 
