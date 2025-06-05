@@ -40,7 +40,12 @@ bash ./scripts/PSM.sh
 ## 5. Experiment results
 
 ### 5.1 Implementation Details
-
+All experiments were conducted within the PyTorch framework.
+The computing resources for all the experiments included an 8GB NVIDIA GeForce 4060ti graphics card.
+The default sliding window size is set to 100.
+The Adam optimizer was adopted for training, and the initial learning rate was 1e-4.
+The batch size is fixed at 64.
+The model was trained for 10 epochs.
 
 
 ### 5.2 Evaluation Metrics
