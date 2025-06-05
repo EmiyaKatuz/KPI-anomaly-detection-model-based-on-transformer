@@ -156,10 +156,10 @@ Replaced the dictionary-based cross-attention with conventional self-attention, 
 
 Heqing Shi (ID: Stardust752121): Project Management, Method Improvement and Theory Verification, Code Implementation and Debugging, Collection of Experimental Results.
 
-Yansong Shi (ID: Patrick-Shi): Data acquisition, data preprocessing, baseline model evaluation ( Merge Commit ID 0335bad) and building experimental charts/tables .
+Yansong Shi (ID: Patrick-Shi): Data acquisition, data preprocessing, baseline model evaluation ( Merge Commit ID 0335bad) and building experimental charts/tables.
 
-Xiaolong Ge (ID: EmiyaKatuz): project environment construction, code implementation and debugging, experimental results collection, and experimental results visualisation.
+Xiaolong Ge (ID: EmiyaKatuz): Project environment construction, code implementation and debugging, experimental results collection, and experimental results visualisation.
 
-Geyang Zhang (ID: Gayatinydog): project environment construction, code implementation and debugging, experimental results collection, and experimental results visualisation.
+Geyang Zhang (ID: Gayatinydog): Project environment construction, code implementation and debugging, experimental results collection, and experimental results visualisation.
 
 Guanjin Wang (ID: fengwanhua): Method improvement and theory verification, slide production.
