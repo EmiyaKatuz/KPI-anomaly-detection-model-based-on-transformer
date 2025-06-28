@@ -3,7 +3,7 @@
 
 ## 1. Get Started--Environment configuration
 
- Install >= Python 3.6, PyTorch >= 1.4.0. cuda vision = 12.8. pandas >= 1.5.0.pytorvh cuda = 12.1。 scikit learn >= 1.6.1
+ Install >= Python 3.6, PyTorch >= 1.4.0, cuda vision = 12.8, pandas >= 1.5.0, pytorch cuda = 12.1, scikit learn >= 1.6.1
 
 ## 2. Datasets used
   Download data. You can obtain the benchmark datasets from the Github Repository of DCdetector ( [here](https://drive.google.com/drive/folders/1RaIJQ8esoWuhyphhmMaH-VCDh-WIluRR) ).
